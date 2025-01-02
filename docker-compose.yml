@@ -1,0 +1,8 @@
+version: '2.5'
+services: 
+        google-maps-scraper-image:
+                                  container_name: google-maps-scraper-containner
+                                  context: .
+                                  dockerfile: Dockerfile
+            
+
